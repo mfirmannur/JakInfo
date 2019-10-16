@@ -1,0 +1,6 @@
+framework module Pods_JakInfoTests {
+  umbrella header "Pods-JakInfoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
