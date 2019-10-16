@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+
+target 'JakInfo' do
+  use_frameworks!
+
+  # Pods for JakInfo
+  pod 'GoogleAnalytics'
+  pod 'Alamofire'
+
+  target 'JakInfoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JakInfoUITests' do
+    # Pods for testing
+  end
+
+end

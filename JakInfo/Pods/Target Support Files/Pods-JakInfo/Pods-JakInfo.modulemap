@@ -1,0 +1,6 @@
+framework module Pods_JakInfo {
+  umbrella header "Pods-JakInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

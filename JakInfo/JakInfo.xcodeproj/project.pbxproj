@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E32F17639A89ED7CB3C72CB /* Pods_JakInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39647AC0DD9064D6AA93F2C /* Pods_JakInfo.framework */; };
+		9611A8461214E573E8C73AE3 /* Pods_JakInfo_JakInfoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B7119BFDBC8F1DF14ACB1D /* Pods_JakInfo_JakInfoUITests.framework */; };
+		B5B82046291FC777DC6ED7B1 /* Pods_JakInfoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700266C34044F29A0E5FCB54 /* Pods_JakInfoTests.framework */; };
 		FC27F6B123571EDF008016BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27F6B023571EDF008016BD /* AppDelegate.swift */; };
 		FC27F6B323571EDF008016BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27F6B223571EDF008016BD /* ViewController.swift */; };
 		FC27F6B623571EDF008016BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC27F6B423571EDF008016BD /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C2E1D1101C3479B6F192E9 /* Pods-JakInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfoTests.debug.xcconfig"; path = "Target Support Files/Pods-JakInfoTests/Pods-JakInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52E49CB2D02D73E04FDBF8A4 /* Pods-JakInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfoTests.release.xcconfig"; path = "Target Support Files/Pods-JakInfoTests/Pods-JakInfoTests.release.xcconfig"; sourceTree = "<group>"; };
+		700266C34044F29A0E5FCB54 /* Pods_JakInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakInfoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750444A14F27C44CB537D35A /* Pods-JakInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfo.release.xcconfig"; path = "Target Support Files/Pods-JakInfo/Pods-JakInfo.release.xcconfig"; sourceTree = "<group>"; };
+		82DA250374B98F1EB511D153 /* Pods-JakInfo-JakInfoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfo-JakInfoUITests.release.xcconfig"; path = "Target Support Files/Pods-JakInfo-JakInfoUITests/Pods-JakInfo-JakInfoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89B7119BFDBC8F1DF14ACB1D /* Pods_JakInfo_JakInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakInfo_JakInfoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5225D2E66F16D51A4B3B9A /* Pods-JakInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfo.debug.xcconfig"; path = "Target Support Files/Pods-JakInfo/Pods-JakInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		BB263006B1B6C7030278AC2B /* Pods-JakInfo-JakInfoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakInfo-JakInfoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JakInfo-JakInfoUITests/Pods-JakInfo-JakInfoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C39647AC0DD9064D6AA93F2C /* Pods_JakInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC27F6AD23571EDF008016BD /* JakInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC27F6B023571EDF008016BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC27F6B223571EDF008016BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E32F17639A89ED7CB3C72CB /* Pods_JakInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B82046291FC777DC6ED7B1 /* Pods_JakInfoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9611A8461214E573E8C73AE3 /* Pods_JakInfo_JakInfoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CF97ED94C244C9784F91BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B5225D2E66F16D51A4B3B9A /* Pods-JakInfo.debug.xcconfig */,
+				750444A14F27C44CB537D35A /* Pods-JakInfo.release.xcconfig */,
+				BB263006B1B6C7030278AC2B /* Pods-JakInfo-JakInfoUITests.debug.xcconfig */,
+				82DA250374B98F1EB511D153 /* Pods-JakInfo-JakInfoUITests.release.xcconfig */,
+				07C2E1D1101C3479B6F192E9 /* Pods-JakInfoTests.debug.xcconfig */,
+				52E49CB2D02D73E04FDBF8A4 /* Pods-JakInfoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B57C50FC520AE22841341239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39647AC0DD9064D6AA93F2C /* Pods_JakInfo.framework */,
+				89B7119BFDBC8F1DF14ACB1D /* Pods_JakInfo_JakInfoUITests.framework */,
+				700266C34044F29A0E5FCB54 /* Pods_JakInfoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC27F6A423571EDF008016BD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				FC27F6C423571EE0008016BD /* JakInfoTests */,
 				FC27F6CF23571EE0008016BD /* JakInfoUITests */,
 				FC27F6AE23571EDF008016BD /* Products */,
+				4CF97ED94C244C9784F91BDA /* Pods */,
+				B57C50FC520AE22841341239 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC27F6D523571EE0008016BD /* Build configuration list for PBXNativeTarget "JakInfo" */;
 			buildPhases = (
+				F0D3DACFB0144EC38494430B /* [CP] Check Pods Manifest.lock */,
 				FC27F6A923571EDF008016BD /* Sources */,
 				FC27F6AA23571EDF008016BD /* Frameworks */,
 				FC27F6AB23571EDF008016BD /* Resources */,
+				9ADF80668C2AF3DB8E6F984A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC27F6D823571EE0008016BD /* Build configuration list for PBXNativeTarget "JakInfoTests" */;
 			buildPhases = (
+				B1E96331F24BD897CB91F7F1 /* [CP] Check Pods Manifest.lock */,
 				FC27F6BD23571EE0008016BD /* Sources */,
 				FC27F6BE23571EE0008016BD /* Frameworks */,
 				FC27F6BF23571EE0008016BD /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC27F6DB23571EE0008016BD /* Build configuration list for PBXNativeTarget "JakInfoUITests" */;
 			buildPhases = (
+				48A7845398B12CDEA7BEB94B /* [CP] Check Pods Manifest.lock */,
 				FC27F6C823571EE0008016BD /* Sources */,
 				FC27F6C923571EE0008016BD /* Frameworks */,
 				FC27F6CA23571EE0008016BD /* Resources */,
+				1F3D931C353233526794F19E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3D931C353233526794F19E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JakInfo-JakInfoUITests/Pods-JakInfo-JakInfoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JakInfo-JakInfoUITests/Pods-JakInfo-JakInfoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JakInfo-JakInfoUITests/Pods-JakInfo-JakInfoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A7845398B12CDEA7BEB94B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakInfo-JakInfoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADF80668C2AF3DB8E6F984A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JakInfo/Pods-JakInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JakInfo/Pods-JakInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JakInfo/Pods-JakInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E96331F24BD897CB91F7F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakInfoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D3DACFB0144EC38494430B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakInfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC27F6A923571EDF008016BD /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		FC27F6D623571EE0008016BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5225D2E66F16D51A4B3B9A /* Pods-JakInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +598,7 @@
 		};
 		FC27F6D723571EE0008016BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750444A14F27C44CB537D35A /* Pods-JakInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		FC27F6D923571EE0008016BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C2E1D1101C3479B6F192E9 /* Pods-JakInfoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +638,7 @@
 		};
 		FC27F6DA23571EE0008016BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E49CB2D02D73E04FDBF8A4 /* Pods-JakInfoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +659,7 @@
 		};
 		FC27F6DC23571EE0008016BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB263006B1B6C7030278AC2B /* Pods-JakInfo-JakInfoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +679,7 @@
 		};
 		FC27F6DD23571EE0008016BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DA250374B98F1EB511D153 /* Pods-JakInfo-JakInfoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

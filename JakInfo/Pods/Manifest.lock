@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.9.0)
+  - GoogleAnalytics (3.17.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleAnalytics
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleAnalytics
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+
+PODFILE CHECKSUM: 8aff711e984dc3158590e9790554bf82b60a7a3d
+
+COCOAPODS: 1.8.3
